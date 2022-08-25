@@ -10,8 +10,7 @@ background-color:black;
  font-style: normal;
  font-weight: 700;
  font-size: 20px;
- line-height: 20px;
-    
+ line-height: 20px;   
  /* identical to box height, or 100% */
   display: flex;
   align-items: center;
