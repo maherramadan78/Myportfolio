@@ -1,49 +1,28 @@
 body{
- width:375px;
- height:718px;
- background-color:black;
+width:375px;
+height:718px;
+background-color:black;
 }
-.image{
- width:92px;
- height:20px;
- font-family:'Inter';
- font-style:normal;
- font-weight:700;
- font-size:20px;
- line-height:20px;
-/* identical to box height, or 100% */
- display:flex;
- align-items:center;
- text-align:center;
- color: #FFFFFF;
-/* Inside auto layout */
-flex:none;
-order:0;
-flex-grow:0;
+.container{
+/* Rectangle 44 */
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: #3E3C3C;
 }
-h1{
-/* John Doe */
-width:50px;
-height:20px;
-font-family:'Inter';
-font-style:normal;
-font-weight:700;
-font-size:20px;
-line-height:20px;
-/* identical to box height, or 100% */
-display:flex;
-align-items:left;
-text-align:left;
-color: #FFFFFF;
-/* Inside auto layout */
-flex:none;
-order:0;
-flex-grow:0;
+.Jhon-Doe{
+    position:absolute;
+    top:8px;
+    left:16px;
 }
+
 .menu{
  position:relative;
  left:1100px;
- top:-35px;
+ top:10px;
  width:max-content;
 }
 /*primero en el móvil (mobile first)*/
@@ -126,10 +105,11 @@ color:#FFFFFF;
 .content2{
 /* Description */
 text-align:center;
+padding:-50px;
 width:550px;
 height:123px;
 font-family:'Inter';
-font-style:normal;
+font-style:initial;
 font-weight:300;
 font-size:15px;
 line-height:32px;
@@ -177,6 +157,8 @@ position:absolute;
 Width:450px;
 Height:550px;
 bottom:90.92%;
+font-size: 1em; 
+color: #f5880c;
 }
 i {
 display: inline-block;
