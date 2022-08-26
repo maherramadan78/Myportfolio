@@ -39,12 +39,14 @@ nav ul {
   margin: 0;
   background: #333;
 }
+
 nav li a {
   color: white;
   display: block;
   text-decoration: none;
   padding: 0.5em 1em;
 }
+
 nav li a:hover {
   background: #f5880c;
   color: white;
@@ -52,9 +54,10 @@ nav li a:hover {
 
 @media screen and (min-width: 480px) {
   nav ul {
-    display: flex;
+  display: flex;
   }
 }
+
 .bars {
   position: absolute;
   display: none;
@@ -157,6 +160,7 @@ i {
   display: inline-block;
   margin-right: 1em;
 }
+
 @media (max-width: 600px) {
   .bars {
     position: absolute;
