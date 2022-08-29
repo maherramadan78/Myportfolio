@@ -1,15 +1,15 @@
 body {
   width: 375px;
   height: 718px;
-  background-color:black;
+  background-color: black;
 }
 
 .container {
   position: absolute;
   width: 1440px;
   height: 72px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background: #3e3c3c;
 }
 
@@ -177,8 +177,8 @@ i {
 .second {
   background-color: white;
   align-items: center;
-  padding:150px;
-  width: 300px;
+  padding:100px;
+  width: 400px;
   height: 80px;
   font-family:'Times New Roman', Times, serif;
   font-style:normal;
@@ -189,14 +189,7 @@ i {
   color: #1C1A19;
   }
 
-  .vector{
-  width: 327px;
-  height: 0px;
-  border: 1px solid #212121;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  }
+  .
 
 .imageplaceholder{
   width: 327px;
@@ -208,15 +201,15 @@ i {
 }
 
 .forth{
-  width: 375px;
+  width: 600px;
   height: 10px;
   font-family:'Times New Roman', Times, serif;
   font-style:normal;
-  font-weight:400px;
-  font-size: 32px;
+  font-weight:350px;
+  font-size: 28px;
   line-height: 60px;
-  padding-left: 70px;
-  padding: px;
+  padding-left: 60px;
+  padding:100px;
   display:flex;
   align-items:center; 
   color:#ffffff; 
