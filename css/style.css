@@ -1,7 +1,7 @@
 body {
   width: 375px;
   height: 718px;
-  background-color: black;
+  background-color:black;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 .Jhon-Doe {
   position: absolute;
-  top: 8px;
+  top: 20px;
   left: 16px;
 }
 
@@ -26,6 +26,18 @@ body {
   width: max-content;
 }
 
+.move .line1{
+  transform: rotate(-45deg) translate(-5px,);
+}
+
+.move .line2{
+  opacity: 0;
+}
+
+.move .line3{
+  transform: rotate(-45deg) translate(-5px,-5px);
+}
+
 nav {
   padding: 1em;
   font-family: Verdana, Geneva, sans-serif;
@@ -33,6 +45,7 @@ nav {
   -moz-osx-font-smoothing: grayscale;
   font-size: 10px;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -120,7 +133,7 @@ nav li a:hover {
   flex-grow: 0;
 }
 
-.content3 a {
+.content3 {
   width: 1vh;
   height: 45px;
   font-family: 'Times New Roman', Times, serif;
@@ -150,7 +163,7 @@ nav li a:hover {
   padding: 15px;
   position: absolute;
   width: 450px;
-  height: 550px;
+  height: 400px;
   bottom: 90.92%;
   font-size: 1em;
   color: #f5880c;
@@ -159,6 +172,57 @@ nav li a:hover {
 i {
   display: inline-block;
   margin-right: 1em;
+}
+
+.second {
+  background-color: white;
+  align-items: center;
+  padding:150px;
+  width: 300px;
+  height: 80px;
+  font-family:'Times New Roman', Times, serif;
+  font-style:normal;
+  font-weight: 350;
+  font-size: 27px;
+  line-height: 32px;
+  display:flex;
+  color: #1C1A19;
+  }
+
+  .vector{
+  width: 327px;
+  height: 0px;
+  border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+
+.imageplaceholder{
+  width: 327px;
+  height: 327px;
+  background: url(image_processing20200716-21735-f07s4k.png);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.forth{
+  width: 375px;
+  height: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-style:normal;
+  font-weight:400px;
+  font-size: 32px;
+  line-height: 60px;
+  padding-left: 70px;
+  padding: px;
+  display:flex;
+  align-items:center; 
+  color:#ffffff; 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 @media (max-width: 600px) {
@@ -174,4 +238,4 @@ i {
     margin-right: 1vh;
     border: 0px solid#f5880c;
   }
-}
+  }
