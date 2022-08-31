@@ -180,55 +180,90 @@ i {
   padding:100px;
   width: 400px;
   height: 80px;
+  display: flex;
+  flex-direction: column;
   font-family:'Times New Roman', Times, serif;
   font-style:normal;
-  font-weight: 350;
-  font-size: 27px;
-  line-height: 32px;
+  font-weight: 250px;
+  font-size: 20px;
+  line-height: 35px;
   display:flex;
   color: #1C1A19;
   }
 
-  .
+.vector {
+  width: 327px;
+  height: 80px;
+  border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding:20px;
+  align-items: center;
+}
 
-.imageplaceholder{
+.imageplaceholder {
   width: 327px;
   height: 327px;
   background: url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
+  align-items:center;
+  margin-block-end: 15px;
 }
 
-.forth{
-  width: 600px;
-  height: 10px;
-  font-family:'Times New Roman', Times, serif;
-  font-style:normal;
-  font-weight:350px;
-  font-size: 28px;
-  line-height: 60px;
-  padding-left: 60px;
-  padding:100px;
-  display:flex;
-  align-items:center; 
-  color:#ffffff; 
-  flex: none;
+.forth {
+  background:white;
+  width: 400px;
+  height: 80px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 32px;
+  line-height: 44px;
+  flex-direction: column;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  color: #091E42;
+  flex: auto;
   order: 0;
   flex-grow: 0;
 }
 
+.paragraph {
+  background-color: white;
+  width: 600px;
+  height: 120px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 430px;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items:left; 
+  color: #091E42;
+  align-items: left;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position:absolute;
+}
+
 @media (max-width: 600px) {
   .bars {
-    position: absolute;
-    display: block;
-    size: 10px;
-    color: #f5880c;
-    left: auto;
-    right: 0;
-    top: 13px;
-    bottom: 95%;
-    margin-right: 1vh;
-    border: 0px solid#f5880c;
+  position: absolute;
+  display: block;
+  size: 10px;
+  color: #f5880c;
+  left: auto;
+  right: 0;
+  top: 13px;
+  bottom: 95%;
+  margin-right: 1vh;
+  border: 0px solid#f5880c;
   }
   }
