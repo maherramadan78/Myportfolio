@@ -5,42 +5,42 @@ body {
 }
 
 .container {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0;
-  top: 0;
-  background: #3e3c3c;
+  position:absolute;
+  width:1440px;
+  height:72px;
+  left:0;
+  top:0;
+  background:#3e3c3c;
 }
 
 .Jhon-Doe {
-  position: absolute;
-  top: 20px;
-  left: 16px;
+  position:absolute;
+  top:20px;
+  left:16px;
 }
 
 .menu {
-  position: relative;
-  left: 1100px;
-  top: 10px;
-  width: max-content;
+  position:relative;
+  left:1100px;
+  top:10px;
+  width:max-content;
 }
 
 .move .line1{
-  transform: rotate(-45deg) translate(-5px,);
+  transform:rotate(-45deg) translate(-5px,);
 }
 
 .move .line2{
-  opacity: 0;
+  opacity:0;
 }
 
 .move .line3{
-  transform: rotate(-45deg) translate(-5px,-5px);
+  transform:rotate(-45deg) translate(-5px,-5px);
 }
 
 nav {
   padding: 1em;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family:Verdana, Geneva, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 10px;
