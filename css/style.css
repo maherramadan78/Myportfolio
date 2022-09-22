@@ -4,14 +4,14 @@
   font-family: 'Poppins', sans-serif;
   margin: 1px;
   padding: 1px;
-  overflow-x:hidden;
-  overflow-y:auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-
+ 
 body {
-  color: white;
-  background:#191765;
-  width: 100%;
+color: #f5f5ff;
+background: #191765;
+width: 100%;
 }
 
 a {
