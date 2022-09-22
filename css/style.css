@@ -1,12 +1,13 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
-*{
+* {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 1px;
+  padding: 1px;
   overflow-x:hidden;
   overflow-y:auto;
 }
+
 body {
   color: white;
   background:#191765;
@@ -39,8 +40,6 @@ li {
 
 header {
   position:fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 100%;
 }
@@ -55,14 +54,14 @@ header {
 .logo {
   font-size: 1.2rem;
   font-weight: 600;
-  color:white;
+  color:#f5f5ff;
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:#7D73FC;
+  color: #7d73fc;
   font-size: 1rem;
 }
   
@@ -75,16 +74,14 @@ header {
 .paragraph {
   text-align: center;
   align-items: center;
-  color: #C8C8D4;
-  font-family: 'Roboto';
+  color: #c8c8d4;
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   padding: 45px;;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .home-text h2 {
@@ -93,9 +90,7 @@ header {
 }
 
 .line1 {
-  height: 0px;
   width: 500px;
-  left: 0px;
   top: 9px;
   border-radius: 10px;
   padding: 40px;
@@ -110,7 +105,7 @@ header {
 }
 
 .languages {
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -119,29 +114,27 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:#9490FF;
+  color:#9490ff;
   letter-spacing: 0.05em;
 }
 
 .menu-language{
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  color:#F5F5FF;
+  color:#f5f5ff;
   flex: none;
-  order: 0;
-  flex-grow: 0;
- }
+}
       
 .Frameworks {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:#9490FF;
+  color:#9490ff;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500px;
@@ -150,22 +143,22 @@ header {
   padding-top: 40px;
 }
 .menu-frameworks{
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  color:#F5F5FF;
+  color:#f5f5ff;
 }
       
 .Skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:#9490FF;
-  font-family: 'Roboto';
+  color:#9490ff;
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -174,13 +167,13 @@ header {
   padding: 30px;
 }
 .menu-skills{
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  color:#F5F5FF;
+  color:#f5f5ff;
   padding:5px;
 }
