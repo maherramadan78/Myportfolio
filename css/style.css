@@ -70,7 +70,7 @@ li {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding: 5px 25px 0px 25px;
+  padding: 5px 25px 0 25px;
   flex: none;
 }
 
@@ -90,9 +90,9 @@ li {
   overflow: hidden;
 }
 
-.line-image{
+.line-image {
   min-width: 70%;
-  max-width:70%;
+  max-width: 70%;
 }
 
 .third {
@@ -112,9 +112,7 @@ li {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 360px;
   top: 550px;
-  background: #edecff;
   filter: blur(25px);
 }
 
@@ -132,7 +130,7 @@ li {
 }
 
 .languages {
-  padding: 0px 10px 10px 10px;
+  padding: 0 10px 10px 10px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500px;
@@ -140,7 +138,8 @@ li {
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+
+  /* align-items: center; */
   justify-content: center;
   color: #9490ff;
   letter-spacing: 0.05em;
@@ -157,13 +156,14 @@ li {
   flex-direction: column;
   color: #f5f5ff;
   flex: none;
-  padding: 0px 20px 20px 0px;
+  padding: 0 20px 20px 0;
 }
 
 .Frameworks {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+
+  /* align-items: center; */
   color: #9490ff;
   font-style: normal;
   font-weight: 500px;
@@ -200,7 +200,8 @@ li {
   justify-self: flex-start;
   padding: 10px;
   min-width: 30%;
-  /*display: flex;
+
+  /* display: flex;
   flex-direction: column;
   align-items: left;
   color: #9490ff;
@@ -210,7 +211,7 @@ li {
   font-size: 12px;
   line-height: 24px;
   padding: 10px;
-  margin: auto 0;*/
+  margin: auto 0; */
 }
 
 .menu-skills {
@@ -222,10 +223,9 @@ li {
   display: grid;
   flex-direction: column;
   color: #f5f5ff;
-  padding: 5px;
   align-items: left;
   margin: auto 0;
-  padding: 0px 20px 20px 0px;
+  padding: 0 20px 20px 0;
 }
 
 .line2 {
@@ -397,30 +397,27 @@ li {
   filter: blur(25px); */
 }
 
+.thetitle {
+  width: 81px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+
+  /* identical to box height, or 89% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Theme 3 / Neutral 11 */
+  color: #fff;
 
 
-.thetitle{
-
-width: 81px;
-height: 16px;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 16px;
-
-/* identical to box height, or 89% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-
-/* Theme 3 / Neutral 11 */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-overflow: hidden;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  overflow: hidden;
 }
