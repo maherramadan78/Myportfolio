@@ -95,16 +95,24 @@ li {
   align-items: center;
 }
 
+.list-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .languages {
+  padding: 15px 1rem 1rem 1rem;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #9490ff;
   letter-spacing: 0.05em;
 }
@@ -119,6 +127,7 @@ li {
   flex-direction: column;
   color: #f5f5ff;
   flex: none;
+  padding: 15px 1rem 1rem 1rem;
 }
 
 .Frameworks {
@@ -130,7 +139,9 @@ li {
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
-  padding-top: 40px;
+  /*padding-top: 40px;*/
+  justify-self: flex-start;
+  padding: 15px 1rem 1rem 1rem;
 }
 
 .menu-frameworks {
@@ -155,6 +166,7 @@ li {
   font-size: 12px;
   line-height: 24px;
   padding: 30px;
+  justify-self: flex-start;
 }
 
 .menu-skills {
