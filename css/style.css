@@ -70,7 +70,7 @@ li {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding: 45px;
+  padding: 5px 25px 0px 25px;
   flex: none;
 }
 
@@ -80,11 +80,19 @@ li {
 }
 
 .line1 {
+  height: 0;
   width: 500px;
+  left: 0;
   top: 9px;
   border-radius: 10px;
   padding: 40px;
   margin: auto;
+  overflow: hidden;
+}
+
+.line-image{
+  min-width: 70%;
+  max-width:70%;
 }
 
 .third {
@@ -95,7 +103,8 @@ li {
   align-items: center;
 }
 
-.list-technologiess {
+.ellipse19 {
+  left: 95% !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -103,8 +112,8 @@ li {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 339px;
-  top: 700px;
+  left: 360px;
+  top: 550px;
   background: #edecff;
   filter: blur(25px);
 }
@@ -123,7 +132,7 @@ li {
 }
 
 .languages {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500px;
@@ -131,10 +140,11 @@ li {
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   color: #9490ff;
   letter-spacing: 0.05em;
+  min-width: 30%;
 }
 
 .menu-language {
@@ -147,13 +157,13 @@ li {
   flex-direction: column;
   color: #f5f5ff;
   flex: none;
-  padding: 20px;
+  padding: 0px 20px 20px 0px;
 }
 
 .Frameworks {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   color: #9490ff;
   font-style: normal;
   font-weight: 500px;
@@ -162,6 +172,7 @@ li {
   margin: auto 0;
   justify-self: flex-start;
   padding: 15px 1rem 1rem 1rem;
+  min-width: 30%;
 }
 
 .menu-frameworks {
@@ -173,12 +184,23 @@ li {
   display: flex;
   flex-direction: column;
   color: #f5f5ff;
-  display: grid;
   margin: auto 0;
 }
 
 .Skills {
   display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #9490ff;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 24px;
+  margin: auto 0;
+  justify-self: flex-start;
+  padding: 10px;
+  min-width: 30%;
+  /*display: flex;
   flex-direction: column;
   align-items: left;
   color: #9490ff;
@@ -188,7 +210,7 @@ li {
   font-size: 12px;
   line-height: 24px;
   padding: 10px;
-  margin: auto 0;
+  margin: auto 0;*/
 }
 
 .menu-skills {
@@ -203,6 +225,7 @@ li {
   padding: 5px;
   align-items: left;
   margin: auto 0;
+  padding: 0px 20px 20px 0px;
 }
 
 .line2 {
@@ -213,6 +236,7 @@ li {
   border-radius: 10px;
   padding: 40px;
   margin: auto;
+  overflow: hidden;
 }
 
 .socialmedia {
@@ -373,15 +397,30 @@ li {
   filter: blur(25px); */
 }
 
-.ellipse19 {
-  position: absolute;
-  width: 80px;
-  right: 160px;
-  top: 1px;
 
 
-  /* Theme 4 / Primary 4 */
+.thetitle{
 
-  /* background: #EDECFF;
-filter: blur(25px); */
+width: 81px;
+height: 16px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+
+/* identical to box height, or 89% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Theme 3 / Neutral 11 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+overflow: hidden;
 }
