@@ -262,7 +262,7 @@ li {
   font-size: 35px;
   line-height: 45px;
   align-items: center;
-  display: flex;
+  display: grid;
   color: #9490ff;
   justify-content: center;
   padding: 40px;
@@ -320,14 +320,6 @@ li {
   flex-direction: row;
 }
 
-.see-project {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  margin: 20px;
-}
 
 .contact-us {
   font-weight: 500;
@@ -358,16 +350,7 @@ li {
   width: 80%;
 }
 
-.buttom {
-  justify-content: center;
-  padding-top: 40px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  color: #f5f5ff;
-  column-gap: 1rem;
-  flex-direction: row;
-}
+
 
 .input-email {
   background: #f5f5ff;
