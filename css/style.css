@@ -320,7 +320,6 @@ li {
   flex-direction: row;
 }
 
-
 .contact-us {
   font-weight: 500;
   font-size: 1rem;
@@ -349,8 +348,6 @@ li {
   padding: 15px;
   width: 80%;
 }
-
-
 
 .input-email {
   background: #f5f5ff;
