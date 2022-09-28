@@ -88,10 +88,11 @@ li {
   padding: 40px;
   margin: auto;
   overflow: hidden;
+  justify-content: center;
 }
 
 .line-image {
-  min-width: 70%;
+  min-width: 80%;
   max-width: 70%;
 }
 
