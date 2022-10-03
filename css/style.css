@@ -334,6 +334,14 @@ padding-left: 29px; */
   color: #fff;
   margin-right: 8px;
 }
+.programming-languages-float {
+  color: #f5f5ff;
+}
+.programming-languages-float li a  {
+  color: #fff;
+  margin-right: 8px;
+  float: left;
+}
 
 .btn {
   color: #fff;
