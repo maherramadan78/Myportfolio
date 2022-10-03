@@ -335,11 +335,13 @@ padding-left: 29px; */
   margin-right: 8px;
 }
 .programming-languages-float {
-  color: #f5f5ff;
+  text-align: center;
+  padding: 5px;
+  padding-left: 18px;
 }
 .programming-languages-float li a  {
   color: #fff;
-  margin-right: 8px;
+  margin-right: 20px;
   float: left;
 }
 
