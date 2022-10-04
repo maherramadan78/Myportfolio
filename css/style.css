@@ -439,3 +439,18 @@ padding-left: 29px; */
   flex-grow: 0;
   overflow: hidden;
 }
+
+.contact {
+  text-align: center;
+}
+
+.btn2 {
+  padding: 12px;
+  background-color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+}
