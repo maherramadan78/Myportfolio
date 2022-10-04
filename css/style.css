@@ -311,7 +311,6 @@ hr {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
-
   /* padding: 40px;
 padding-left: 29px; */
   text-align: left;
@@ -332,7 +331,6 @@ padding-left: 29px; */
 
 .programming-languages li a {
   color: #fff;
-  margin-right: 8px;
 }
 
 .btn {
@@ -340,7 +338,7 @@ padding-left: 29px; */
   padding: 25px 25px;
   border: 1px solid #9390ff;
   background-color: #9390ff;
-  margin-left: 20px;
+  margin-left: 30px;
   width: 40%;
   margin-top: 40px;
   margin-bottom: 60px;
@@ -348,14 +346,14 @@ padding-left: 29px; */
 }
 
 .contact-us {
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 800;
+  font-size: 16px;
   line-height: 44px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center; 
   justify-content: center;
-  color: #9390ff;
-  flex: none;
-  padding: 10px;
+  color: #9390FF;  
 }
 
 .paragraph3 {
@@ -372,36 +370,56 @@ padding-left: 29px; */
 .input-text {
   background: #f5f5ff;
   color: #81818c;
-  padding: 15px;
-  width: 80%;
+  padding: 25px 25px;
+  width: 60%;
+  font-weight: 200;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .input-email {
   background: #f5f5ff;
   color: #81818c;
-  padding: 15px;
-  width: 80%;
+  padding: 25px 25px;
+  width: 60%;
+  font-weight: 200;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .input-comment {
+  Width: 327px;
+  Height: 148px;
   background: #f5f5ff;
   color: #81818c;
-  padding: 15px;
-  width: 80%;
-  height: 80px;
+  padding: 25px 25px;
+  width: 60%;
+  font-weight: 200;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-/* Ellipse 18 */
+
 .ellipse18 {
   position: absolute;
   width: 120px;
   left: -15px;
   top: 1px;
-
-  /* Theme 4 / Primary 4 */
-
-  /* background: #EDECFF;
-  filter: blur(25px); */
 }
 
 .thetitle {
@@ -411,17 +429,11 @@ padding-left: 29px; */
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-
-  /* identical to box height, or 89% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Theme 3 / Neutral 11 */
   color: #fff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
