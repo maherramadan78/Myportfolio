@@ -431,7 +431,7 @@ padding-left: 29px; */
   justify-content: center;
   color: #f5f5ff;
   column-gap: 1.5rem;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .paragraph4 {
@@ -458,4 +458,3 @@ textarea {
   margin-top: 24px;
   padding: 10px;
 }
-
