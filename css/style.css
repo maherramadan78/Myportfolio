@@ -358,17 +358,6 @@ padding-left: 29px; */
   color: #9390ff;
 }
 
-.paragraph3 {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: #c8c8d4;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  flex: none;
-}
-
 .ellipse18 {
   position: absolute;
   width: 120px;
@@ -458,7 +447,8 @@ textarea {
   margin-top: 24px;
   padding: 10px;
 }
-.contact {
+
+.contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -466,9 +456,9 @@ textarea {
   margin-top: 150px;
 }
 
-.contactus {
+.contact-us {
   margin-bottom: 30px;
-  font-family: "Roboto";
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -477,13 +467,13 @@ textarea {
 }
 
 .paragraph3 {
-  font-family: "Roboto";
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin: 5px 370px;
 }
 
@@ -508,7 +498,7 @@ textarea[type="text"]:hover {
   border: 1px solid #000;
 }
 
-.btn2 {
+.btn-2 {
   padding: 12px;
   background-color: #7d73fc;
   border: 1px solid #7d73fc;
@@ -526,8 +516,7 @@ textarea[type="text"]:hover {
   cursor: pointer;
 }
 
-.btn2:hover {
+.btn-2:hover {
   background-color: #fff;
   color: #191765;
 }
-
