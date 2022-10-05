@@ -458,3 +458,76 @@ textarea {
   margin-top: 24px;
   padding: 10px;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.contactus {
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  color: #9390ff;
+}
+
+.paragraph3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin: 5px 370px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea[type="text"] {
+  outline: none;
+  border: 1px solid #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea[type="text"]:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.btn2 {
+  padding: 12px;
+  background-color: #7d73fc;
+  border: 1px solid #7d73fc;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #edecff;
+  width: 35%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  color: #191765;
+}
+
