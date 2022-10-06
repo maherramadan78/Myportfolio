@@ -278,7 +278,8 @@ hr {
 .place-holder-img {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
+  background:
+    linear-gradient(0deg, #f9f9f9, #f9f9f9),
     url(image_processing20200716-21735-f07s4k.png);
   display: flex;
   align-items: center;
@@ -348,7 +349,6 @@ padding-left: 29px; */
   align-self: left;
 }
 
-
 .ellipse18 {
   position: absolute;
   width: 120px;
@@ -384,7 +384,7 @@ padding-left: 29px; */
 
 .contact-us {
   margin-bottom: 30px;
-  font-family: "Roboto";
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -394,13 +394,13 @@ padding-left: 29px; */
 }
 
 .paragraph3 {
-width: 327px;
-height: 105px;;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #F5F5FF;
+  width: 327px;
+  height: 105px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
 }
 
 .form {
@@ -411,8 +411,7 @@ color: #F5F5FF;
 }
 
 input[type="text"],
-input[type="email"]
- {
+input[type="email"] {
   outline: none;
   border: 1px solid #fff;
   margin: 15px 10px;
@@ -429,10 +428,10 @@ input[type="email"],
 }
 
 textarea[type="text"] {
-width: 327px;
-height: 148px;
-margin: 15px 10px;
-padding: 5px;
+  width: 327px;
+  height: 148px;
+  margin: 15px 10px;
+  padding: 5px;
 }
 
 textarea[type="text"]:hover {
