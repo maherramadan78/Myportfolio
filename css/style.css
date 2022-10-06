@@ -390,7 +390,9 @@ padding-left: 29px; */
   font-size: 40px;
   line-height: 24px;
   color: #9390ff;
+  text-transform: uppercase;
 }
+
 .paragraph3 {
 width: 327px;
 height: 105px;;
@@ -409,15 +411,30 @@ color: #F5F5FF;
 }
 
 input[type="text"],
-input[type="email"],
-textarea[type="text"] {
+input[type="email"]
+ {
   outline: none;
   border: 1px solid #fff;
   margin: 15px 10px;
+  width: 327px;
+  height: 48px;
+  padding: 5px;
 }
 
 input[type="text"],
 input[type="email"],
+:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+textarea[type="text"] {
+width: 327px;
+height: 148px;
+margin: 15px 10px;
+padding: 5px;
+}
+
 textarea[type="text"]:hover {
   outline: none;
   border: 1px solid #000;
@@ -434,7 +451,6 @@ textarea[type="text"]:hover {
   justify-content: center;
   align-items: center;
   color: #edecff;
-  width: 35%;
   margin-top: 40px;
   margin-bottom: 40px;
   outline: none;
@@ -444,4 +460,25 @@ textarea[type="text"]:hover {
 .btn2:hover {
   background-color: #fff;
   color: #191765;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.email-text {
+  margin-bottom: 30px;
+  font-size: 20px;
 }
