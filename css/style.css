@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -78,7 +78,7 @@ li {
   text-align: center;
   align-items: center;
   color: #c8c8d4;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -141,7 +141,7 @@ li {
 
 .languages {
   padding: 0 10px 10px 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -156,7 +156,7 @@ li {
 }
 
 .menu-language {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -184,7 +184,7 @@ li {
 }
 
 .menu-frameworks {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -222,7 +222,7 @@ li {
 }
 
 .menu-skills {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -330,7 +330,7 @@ hr {
 }
 
 .title-post h2 {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 350px;
   font-size: 32px;
@@ -413,7 +413,6 @@ padding-left: 29px; */
 
 .programming-languages li a {
   color: #fff;
-  margin-right: 8px;
 }
 
 .btn {
@@ -445,39 +444,11 @@ padding-left: 29px; */
   margin-top: -20px;
 }
 
-.contact-us {
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 44px;
-  text-align: center;
-  justify-content: center;
-  color: #9390ff;
-  flex: none;
-  padding: 10px;
-}
-
-.paragraph3 {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: #c8c8d4;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  flex: none;
-}
-
-/* Ellipse 18 */
 .ellipse18 {
   position: absolute;
-  width: 250px;
-  left: -30px;
+  width: 120px;
+  left: -15px;
   top: 1px;
-
-  /* Theme 4 / Primary 4 */
-
-  /* background: #EDECFF;
-  filter: blur(25px); */
 }
 
 .thetitle {
@@ -487,21 +458,99 @@ padding-left: 29px; */
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-
-  /* identical to box height, or 89% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Theme 3 / Neutral 11 */
   color: #fff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   overflow: hidden;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.contact-us {
+  margin-bottom: 30px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  color: #9390ff;
+  text-transform: uppercase;
+}
+
+.paragraph3 {
+  width: 327px;
+  height: 105px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+/* Ellipse 18 */
+.ellipse18 {
+  position: absolute;
+  width: 250px;
+  left: -30px;
+  top: 1px;
+}
+
+textarea[type="text"]:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.btn2 {
+  padding: 12px;
+  background-color: #7d73fc;
+  border: 1px solid #7d73fc;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #edecff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  color: #191765;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.email-text {
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .form {
