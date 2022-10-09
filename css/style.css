@@ -559,14 +559,22 @@ textarea:focus {
 
 .button {
   /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
+   /* same size as the label elements */
+  width: 136px;
+  height: 24px;
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-left: 0.5em;
-}
+  width: 120px;
+  height: 65px;
+ }
 
 .social-icons {
   display: flex;
