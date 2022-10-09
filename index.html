@@ -263,15 +263,31 @@
    
   <h2 class="contact-us">Contact Us</h2>
   <p class="paragraph3">If you have an application you are
-    interested in developing, a feature that you
+    interested in developing, a feature that you <br>
     need built or a project that needs coding.
     I'd love to help with it </p>
 
   <form action="https://formspree.io/forms/meqdknwb/integration" method="post" class="form">
-  <input type="text" id="name" name="name" placeholder="User name" maxlength="30" required>
-  <input type="email" id="email" name="email" placeholder="Example@email.com" required>
-  <textarea type="text" id="Message" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
-  <button class="btn2">See project</button>
+    <ul>
+      <li>
+        <input type="text" id="jeremy" name="user_name" />
+      </li>
+      <li>
+        <input type="text" id="lastname" name="last_name" />
+      </li>
+
+      <li>
+        <input type="email" id="mail" name="user_email" />
+      </li>
+      <li>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+    </ul>
+
+    <li class="button">
+      <button type="submit">Send your message</button>
+    </li> 
+  </form>
 </form>
 </section>
 <!-- line4 -->

@@ -17,26 +17,14 @@ li {
   list-style: none;
 }
 
-
-.nav{
+.navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
-}
-.logo{
-font-size: 1.2rem;
-font-weight: 600;
-color:var(--main-color);
+  align-items: right;
+  column-gap: 2rem;
+  margin-left: 550px;
 }
 
-.navbar{
-display: flex;
-align-items: right;
-column-gap: 2rem;
-margin-left: 550px;
-}
-.nav-link{
+.nav-link {
   font-size: 0.94rem;
   padding: 4px 8px;
   border-radius: 0.2rem;
@@ -45,7 +33,6 @@ margin-left: 550px;
 
 .endnavbar {
   display: none;
-
   padding: 20px;
   justify-content: end;
   color: #f9f9f9;
@@ -68,7 +55,7 @@ margin-left: 550px;
   font-size: 1.2rem;
   font-weight: 600;
   color: #f5f5ff;
- margin-left: 80px;
+  margin-left: 80px;
 }
 
 .home-content {
@@ -85,7 +72,6 @@ margin-left: 550px;
   align-items: center;
   padding: 20px;
   margin-top: -20px;
-
 }
 
 .paragraph {
@@ -99,7 +85,6 @@ margin-left: 550px;
   line-height: 28px;
   padding: 45px 35px 0 25px;
   flex: none;
-
 }
 
 .home-text h2 {
@@ -152,7 +137,6 @@ margin-left: 550px;
   gap: 80px;
   margin-top: 20px;
   padding-left: 55px;
-
 }
 
 .languages {
@@ -243,7 +227,7 @@ margin-left: 550px;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
-  display:grid;
+  display: grid;
   flex-direction: column;
   color: #f5f5ff;
   align-items: left;
@@ -308,7 +292,6 @@ margin-left: 550px;
   color: #9490ff;
   margin: 55px 45px;
   padding-left: 200px;
-  
 }
 
 hr {
@@ -324,8 +307,7 @@ hr {
   justify-content: left;
   margin: auto;
   margin-left: 160px;
-  margin-top: 0px;
-
+  margin-top: 0;
 }
 
 .place-holder-left {
@@ -339,8 +321,6 @@ hr {
   margin-left: 550px;
   margin-top: 20px;
 }
-
-
 
 .card {
   display: flex;
@@ -364,27 +344,25 @@ hr {
 }
 
 .title-post-left h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 350;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: left;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: -300px;
   margin-left: 160px;
   padding: 10px 0;
-  
-  
 }
 
 .paragraph2 {
-  font-family: 'Roboto', serif;
   font-weight: 200;
   font-size: 12px;
   line-height: 28px;
   color: #dcdce8;
+
   /* padding: 40px;
 padding-left: 29px; */
   text-align: left;
@@ -399,11 +377,11 @@ padding-left: 29px; */
   font-size: 12px;
   line-height: 28px;
   color: #dcdce8;
+
   /* padding: 40px;
 padding-left: 29px; */
-margin-top: -220px;
-margin-left: 160px;
-  
+  margin-top: -220px;
+  margin-left: 160px;
 }
 
 .programming-languages {
@@ -427,13 +405,11 @@ margin-left: 160px;
   justify-content: center;
   padding: 30px;
   padding-left: 18px;
-  color: #FFFFFF;
+  color: #fff;
   column-gap: 1rem;
   flex-direction: row;
   margin-right: 820px;
 }
-
-
 
 .programming-languages li a {
   color: #fff;
@@ -447,7 +423,6 @@ margin-left: 160px;
   padding: 25px 25px;
   border: 1px solid #9390ff;
   background-color: #9390ff;
-  margin-left: 20px;
   margin-bottom: 40px;
   align-self: left;
   margin-left: 780px;
@@ -468,8 +443,6 @@ margin-left: 160px;
   margin-right: 950px;
   margin-left: 30px;
   margin-top: -20px;
-
-  
 }
 
 .contact-us {
@@ -514,13 +487,16 @@ margin-left: 160px;
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
+
   /* identical to box height, or 89% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+
   /* Theme 3 / Neutral 11 */
   color: #fff;
+
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -532,6 +508,7 @@ margin-left: 160px;
   /* Center the form on the page */
   margin: 0 auto;
   width: 400px;
+
   /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
@@ -554,6 +531,7 @@ label {
   width: 90px;
   text-align: right;
 }
+
 input,
 textarea {
   /* To make sure that all text fields have the same font settings
@@ -574,11 +552,8 @@ textarea:focus {
   border-color: #000;
 }
 
-textarea {
-  /* Align multiline text fields with their labels */
+.textarea {
   vertical-align: top;
-
-  /* Provide space to type some text */
   height: 5em;
 }
 
@@ -606,19 +581,18 @@ button {
 }
 
 .email-text {
- width: 221px;
-height: 29px;
+  width: 221px;
+  height: 29px;
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding-right: 500px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-padding-right: 500px;
+  /* or 140% */
+  text-align: center;
 
-/* or 140% */
-text-align: center;
-
-/* Primary/B50 */
-color: #EBEBFF;
+  /* Primary/B50 */
+  color: #ebebff;
 }
