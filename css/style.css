@@ -444,13 +444,6 @@ padding-left: 29px; */
   margin-top: -20px;
 }
 
-.ellipse18 {
-  position: absolute;
-  width: 120px;
-  left: -15px;
-  top: 1px;
-}
-
 .thetitle {
   width: 81px;
   height: 16px;
@@ -497,7 +490,7 @@ padding-left: 29px; */
   text-align: center;
   color: #f5f5ff;
 }
-/* Ellipse 18 */
+
 .ellipse18 {
   position: absolute;
   width: 250px;
@@ -539,18 +532,12 @@ textarea[type="text"]:hover {
   justify-content: center;
 }
 
-.social-icons {
-  display: flex;
-  margin-bottom: 20px;
+form li + li {
+  margin-top: 1em;
 }
 
 .social-icons li {
   margin-right: 10px;
-}
-
-.email-text {
-  margin-bottom: 30px;
-  font-size: 20px;
 }
 
 .form {
@@ -568,10 +555,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
 }
 
 label {
@@ -607,8 +590,6 @@ textarea:focus {
 }
 
 .button {
-  /* Align buttons with the text fields */
-   /* same size as the label elements */
   width: 136px;
   height: 24px;
   font-family: 'Roboto', serif;
@@ -621,9 +602,7 @@ textarea:focus {
   text-align: center;
   letter-spacing: 0.03em;
   margin-left: 0.5em;
-  width: 120px;
-  height: 65px;
- }
+}
 
 .social-icons {
   display: flex;
