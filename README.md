@@ -3,7 +3,7 @@
 
 # Myporfolio
 
-> first mobile porffolio website 
+>  Desktop version portfolio website 
 
 ## html and styles css
 
@@ -29,11 +29,11 @@ creat a repositori in git hub , clone it on the v code and create branche and sw
 add index.html.
 add styles.css.
 add  files readme , linters file , stylelintrc.json, package.json.
-coding the html code and css style to make the first mobile portfolio project.
+coding the html code and css style to make the desktop version portfolio
 
 
 ### Setup
-after that i created a branch a new feature branch and i switched it from master to new feature branch .
+after that i created a branch a new feature branch and i switched it from master to dsktop version branch
 
 ### Install
 I clone it by using the git bash inside the folder of hello microverse project.
