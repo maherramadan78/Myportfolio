@@ -1,5 +1,5 @@
-# portfolio-project
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# portfolio-project-Desktop-version
+![](https://github.com/maherramadan78/Myportfolio/tree/desktop-version)
 
 # Myporfolio
 
@@ -49,7 +49,7 @@ git push
 
 Maher Ramadan
 
-- GitHub: [@githubhandle](https://github.com/maherramadan78/Myportfolio.git)
+- GitHub: [@githubhandle](https://github.com/maherramadan78/Myportfolio/tree/desktop-version)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maher-ramadan-655623a4/)
 
 

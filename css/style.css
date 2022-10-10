@@ -319,7 +319,8 @@ hr {
   justify-content: left;
   margin: auto;
   margin-left: 550px;
-  margin-top: 20px;
+  margin-top: 40px;
+  padding: 60px;
 }
 
 .card {
@@ -408,7 +409,7 @@ padding-left: 29px; */
   color: #fff;
   column-gap: 1rem;
   flex-direction: row;
-  margin-right: 820px;
+  margin-right: 550px;
 }
 
 .programming-languages li a {
@@ -426,13 +427,24 @@ padding-left: 29px; */
   align-self: left;
   margin-left: 780px;
   margin-top: 15px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
 
 .btn-segund {
   width: 120px;
   height: 65px;
   color: #fff;
-  padding: 25px 25px;
+  padding: 35px 25px;
   border: 1px solid #9390ff;
   background-color: #9390ff;
   align-self: center;
@@ -440,8 +452,8 @@ padding-left: 29px; */
   justify-content: left;
   display: flex;
   margin-right: 950px;
-  margin-left: 30px;
-  margin-top: -20px;
+  margin-left: 160px;
+  margin-top: -30px;
 }
 
 .thetitle {
@@ -468,6 +480,7 @@ padding-left: 29px; */
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  margin-left: 100px;
 }
 
 .contact-us {
@@ -566,21 +579,15 @@ label {
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
+ 
   font: 1em sans-serif;
-
-  /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
-
-  /* Match form field borders */
   border: 1px solid #999;
 }
 
 input:focus,
 textarea:focus {
-  /* Additional highlight for focused elements */
   border-color: #000;
 }
 
