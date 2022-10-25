@@ -330,7 +330,7 @@ hr {
   color: #fff;
   padding: 10px 0;
   margin: 20px 10px;
-  margin-left: 780px;
+  margin-left: 800px;
   margin-top: -320px;
 }
 
@@ -358,7 +358,7 @@ hr {
 padding-left: 29px; */
   text-align: left;
   margin: 10px 20px;
-  margin-left: 780px;
+  margin-left: 800px;
   margin-top: -240px;
 }
 
@@ -629,7 +629,7 @@ textarea:focus {
 .work-container {
   display: flex;
   height: 40vh;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .work-container:nth-of-type(even) {
@@ -647,5 +647,5 @@ textarea:focus {
 }
 
 .project-details {
-  width: 17.5rem;
+  width: 18rem;
 }
