@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,6 @@ li {
   width: 100%;
 }
 
-
 .nav {
   display: flex;
   align-items: center;
@@ -41,10 +40,6 @@ li {
   font-size: 1.2rem;
   font-weight: 600;
   color: #f5f5ff;
-}
-
-.navbar {
-  margin-left: 25px;
 }
 
 .home-content {
@@ -66,7 +61,7 @@ li {
   text-align: center;
   align-items: center;
   color: #c8c8d4;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -124,9 +119,16 @@ li {
   justify-content: space-around;
 }
 
+.list-technologiesss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 0 0 0 40px;
+}
+
 .languages {
   padding: 0 10px 10px 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -142,7 +144,7 @@ li {
 }
 
 .menu-language {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -171,7 +173,7 @@ li {
 }
 
 .menu-frameworks {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -210,7 +212,7 @@ li {
 }
 
 .menu-skills {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -276,11 +278,13 @@ hr {
 .place-holder-img {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  background:
+    linear-gradient(0deg, #f9f9f9, #f9f9f9),
+    url(image_processing20200716-21735-f07s4k.png);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 24px;
   padding-left: 10px;
 }
 
@@ -292,7 +296,7 @@ hr {
 }
 
 .title-post h2 {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 350px;
   font-size: 32px;
@@ -300,20 +304,21 @@ hr {
   text-align: left;
   color: #fff;
   padding: 10px 0;
-  margin: 20px 10px;
-  margin-left: 25px;
+  margin: 20px 25px;
+  margin-right: 24px;
 }
 
 .paragraph2 {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-weight: 200;
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
- /* padding: 40px;*/
+
+  /* padding: 40px;
+padding-left: 29px; */
   text-align: left;
-  margin: 10px 20px;
-  margin-left: 25px
+  margin: 10px 24px;
 }
 
 .programming-languages {
@@ -322,7 +327,7 @@ hr {
   text-align: center;
   justify-content: center;
   padding: 5px;
-  /*padding-left: 18px;*/
+  padding-left: 18px;
   color: #f5f5ff;
   column-gap: 1.5rem;
   flex-direction: row;
@@ -343,77 +348,6 @@ hr {
   margin-bottom: 60px;
   align-self: left;
 }
-
-.contact-us {
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center; 
-  justify-content: center;
-  color: #9390FF;  
-}
-
-.paragraph3 {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: #c8c8d4;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  flex: none;
-}
-
-.input-text {
-  background: #f5f5ff;
-  color: #81818c;
-  padding: 25px 25px;
-  width: 60%;
-  font-weight: 200;
-  font-size: 8px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: 60px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.input-email {
-  background: #f5f5ff;
-  color: #81818c;
-  padding: 25px 25px;
-  width: 60%;
-  font-weight: 200;
-  font-size: 8px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: 60px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  
-}
-
-.input-comment {
-  Width: 327px;
-  Height: 148px;
-  background: #f5f5ff;
-  color: #81818c;
-  padding: 25px 25px;
-  width: 60%;
-  font-weight: 200;
-  font-size: 8px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: 60px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 
 .ellipse18 {
   position: absolute;
@@ -440,13 +374,89 @@ hr {
   overflow: hidden;
 }
 
-.button {
-  color: #fff;
-  border: 1px solid #9390ff;
-  background-color: #9390ff;
-  width: 40%;
-  margin-top: 20px;
-  align-items: center;
+.contact-form {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: flexbox;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.contact-us {
+  margin-bottom: 30px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  color: #9390ff;
+  text-transform: uppercase;
+}
+
+.paragraph3 {
+  width: 327px;
+  height: 105px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  border: 1px solid #fff;
+  margin: 15px 10px;
+  width: 327px;
+  height: 48px;
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+textarea[type="text"] {
+  width: 327px;
+  height: 148px;
+  margin: 15px 10px;
+  padding: 5px;
+}
+
+textarea[type="text"]:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.btn2 {
+  padding: 12px;
+  background-color: #7d73fc;
+  border: 1px solid #7d73fc;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #edecff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  color: #191765;
 }
