@@ -29,6 +29,10 @@ li {
   width: 100%;
 }
 
+.navbar {
+  margin-left: 35px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -354,12 +358,24 @@ padding-left: 29px; */
   width: 120px;
   left: -15px;
   top: 1px;
-
 }
 
-.email-text {
-  margin-bottom: 30px;
-  font-size: 20px;
+.thetitle {
+  width: 81px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  overflow: hidden;
 }
 
 .contact-form {
@@ -447,4 +463,25 @@ textarea[type="text"]:hover {
 .btn2:hover {
   background-color: #fff;
   color: #191765;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.email-text {
+  margin-bottom: 30px;
+  font-size: 20px;
 }
