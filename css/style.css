@@ -354,24 +354,12 @@ padding-left: 29px; */
   width: 120px;
   left: -15px;
   top: 1px;
+
 }
 
-.thetitle {
-  width: 81px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  overflow: hidden;
+.email-text {
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .contact-form {
