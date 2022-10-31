@@ -29,10 +29,6 @@ li {
   width: 100%;
 }
 
-.navbar {
-  margin: 16px;
-}
-
 .nav {
   display: flex;
   align-items: center;
