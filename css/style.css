@@ -450,7 +450,7 @@ padding-left: 29px; */
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .contact-us {
@@ -610,6 +610,8 @@ textarea:focus {
   font-size: 20px;
   line-height: 28px;
   padding-right: 500px;
+  margin-left: 880px;
+  margin-top: -35px;
 
   /* or 140% */
   text-align: center;
