@@ -42,6 +42,7 @@ li {
   max-width: 900px;
   margin: auto;
   width: 100%;
+  
 }
 
 .nav {
@@ -56,7 +57,15 @@ li {
   font-weight: 600;
   color: #f5f5ff;
   margin-left: 80px;
+ 
 }
+
+.circlebackgroud {
+  background-image: url(../img/twocirclesheader.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+  
 
 .home-content {
   display: flex;
@@ -64,6 +73,9 @@ li {
   align-items: center;
   color: #7d73fc;
   font-size: 1.5rem;
+  height: auto;
+  background-size: 100%;
+  width: 100%;
 }
 
 .home-text {
@@ -281,7 +293,7 @@ hr {
 }
 
 .line3 {
-  width: 80%;
+  width: 89%;
   margin: 12px auto;
   color: #646369;
 }
@@ -590,7 +602,7 @@ textarea:focus {
   color: #f5f5ff;
   column-gap: 0.5rem;
   margin-top: -20px;
-  margin-right: 35px;
+  margin-right: 60px;
 }
 
 .email-text {
@@ -602,7 +614,7 @@ textarea:focus {
   font-size: 20px;
   line-height: 28px;
   padding-right: 500px;
-  margin-left: 880px;
+  margin-left: 850px;
   margin-top: -35px;
 
   /* or 140% */
