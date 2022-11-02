@@ -45,6 +45,10 @@ li {
   
 }
 
+.navbar {
+  margin-left: 35px;
+}
+
 .nav {
   display: flex;
   align-items: center;
