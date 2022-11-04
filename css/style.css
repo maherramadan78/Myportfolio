@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 body {
@@ -19,12 +18,30 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+  * {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #f5f5ff;
+    background: #191765;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
 
   .navbar {
     display: none;
   }
+  
   .endnavbar {
-    padding: 20px;
     justify-content: end;
     color: #f9f9f9;
   }
@@ -35,11 +52,16 @@ li {
     width: 100%;
   }
   
+  .navbar {
+    margin-left: 35px;
+  }
+  
   .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px;
+    width: 87%;
   }
   
   .logo {
@@ -80,7 +102,19 @@ li {
     font-size: 1.5rem;
     line-height: 3rem;
   }
-    
+  
+  /* .line1 {
+    height: 0;
+    width: 350px;
+    left: 0;
+    top: 9px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+  } */
+  
   .line-image {
     min-width: 80%;
     max-width: 70%;
@@ -95,7 +129,7 @@ li {
   }
   
   .ellipse19 {
-    left: 95% !important;
+    /* left: 95% !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -104,7 +138,8 @@ li {
     width: 68px;
     height: 68px;
     top: 550px;
-    filter: blur(25px);
+    filter: blur(25px); */
+    display: none;
   }
   
   .list-technologies {
@@ -148,6 +183,10 @@ li {
     color: #f5f5ff;
     flex: none;
     padding: 0 20px 20px 0;
+  }
+
+  .flesh-down-left {
+    display: none;
   }
   
   .Frameworks {
@@ -289,6 +328,12 @@ li {
     justify-content: center;
   }
   
+  /* .project-img {
+    background-image: url(../img/ImgPlaceholder.png);
+    width: 70%;
+    height: 300px;
+  } */
+
   .title-post h2 {
     font-family: "Roboto", serif;
     font-style: normal;
@@ -351,21 +396,10 @@ li {
   }
   
   .thetitle {
-    width: 81px;
-    height: 16px;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    overflow: hidden;
   }
   
   .contact-form {
@@ -418,6 +452,7 @@ li {
   input[type="email"],
   :hover {
     outline: none;
+    border: 1px solid #000;
   }
   
   textarea[type="text"] {
@@ -474,6 +509,7 @@ li {
     margin-bottom: 30px;
     font-size: 20px;
   }
+
   
 }
 
