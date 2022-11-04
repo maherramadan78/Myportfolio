@@ -3,7 +3,7 @@
 
 # Myporfolio
 
-> first mobile porffolio website 
+> first mobile portfolio contact form
 
 ## html and styles css
 
