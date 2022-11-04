@@ -3,13 +3,13 @@
 
 # Myporfolio
 
-> first mobile porffolio website 
+> first mobile portfolio contact form
 
 ## html and styles css
 
 - english language
 - visual code editor
-- html , css ,visual code , git hub , lentors file
+- html , css.
 
 ## Live Demo (if available)
 
@@ -38,7 +38,7 @@ after that i created a branch a new feature branch and i switched it from master
 ### Install
 I clone it by using the git bash inside the folder of hello microverse project.
 ### Usage
-i have made Hello microverse project by html and styles css  creating the index.html and styles.css files.
+i have made my portfolio finish mobile project by html and styles css  creating the index.html and styles.css files.
 i added all the files readme , linters file , stylelintrc.json, package.json.
 ### Run tests
 i used the command git add .
