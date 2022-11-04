@@ -17,11 +17,21 @@ li {
   list-style: none;
 }
 
+
+.project-img {
+  width: 340px;
+  height: 237px;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
 @media screen and (max-width: 767px) {
   * {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    padding-left: 3px;
   }
   
   body {
@@ -311,14 +321,38 @@ li {
   .place-holder-img {
     width: 327px;
     height: 236px;
-    background:
+    background-image: 
       linear-gradient(0deg, #f9f9f9, #f9f9f9),
-      url(image_processing20200716-21735-f07s4k.png);
+      url('../img/ImgPlaceholder.png');
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 24px;
     padding-left: 10px;
+  }
+
+  .place-holder-img {
+    width: 600px;
+    height: 380px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: auto;
+    margin-left: 250px;
+    margin-top: 0;
+  }
+
+  .place-holder-left {
+    width: 600px;
+    height: 380px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 40px;
   }
   
   .card {
@@ -452,7 +486,6 @@ li {
   input[type="email"],
   :hover {
     outline: none;
-    border: 1px solid #000;
   }
   
   textarea[type="text"] {
@@ -1049,12 +1082,12 @@ li {
     box-sizing: border-box;
     border: 1px solid #999;
     margin-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 
   #msg {
     height: 100px;
-    padding-left: 10px;
+    padding-left: 19px;
     padding-top: 10px;
   }
 
@@ -1106,7 +1139,8 @@ li {
     display: flex;
     height: 40vh;
     margin-bottom: 4rem;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .work-container:nth-of-type(even) {
