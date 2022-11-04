@@ -345,15 +345,15 @@ hr {
 
 .programming-languages {
   display: flex;
-
-  /* align-items: center; */
-
-  /* justify-content: center; */
-
-  /* padding: 3rem; */
   gap: 0.3rem;
-  margin-top: 15px;
+  padding: 1vw 0vw 1vw 0vw;
 }
+
+.programming-languages > li {
+  font-size: 12px;
+}
+
+
 
 form li + li {
   margin-top: 1em;
@@ -463,6 +463,10 @@ color: #FFFFFF;
   margin-left: -30px;
 }
 
+.contact-form > form >button {
+  padding: 0vw 0vw 0vw 3vw;
+}
+
 .contact-us {
   margin-bottom: 30px;
   font-family: "Roboto", serif;
@@ -480,7 +484,6 @@ color: #FFFFFF;
 }
 
 .paragraph3 {
-  width: 490px;
   height: 105px;
   font-weight: 400;
   font-size: 14px;
@@ -522,6 +525,8 @@ textarea[type="text"]:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0vw 0vw 0vw 0vw;
+  padding: 0vw 0vw 0vw 0vw;
 }
 
 .form {
@@ -544,7 +549,6 @@ label {
   margin-right: 20px;
 }
 
-
 textarea {
   font: 1em sans-serif;
   width: 100%;
@@ -561,6 +565,7 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #999;
   margin-top: 10px;
+  padding-left: 10px;
   
 }
 
@@ -571,6 +576,13 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #999;
   margin-top: 10px;
+  padding-left: 10px;
+}
+
+#msg {
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 input:focus,
@@ -624,9 +636,6 @@ textarea:focus {
   width: 148px;
 }
 
-
-
-
 .works {
   width: 100%;
   display: flex;
@@ -639,6 +648,7 @@ textarea:focus {
   display: flex;
   height: 40vh;
   margin-bottom: 4rem;
+  flex-direction: row;
 }
 
 .work-container:nth-of-type(even) {
@@ -664,8 +674,32 @@ font-size: 16px;
 line-height: 28px;
 width: 448px;
 height: 140px;
-margin-top: 77px;
 }
+
+.project-details > h2 {
+  padding: 0vw 0vw 2vw 0vw;
+}
+
+.project-details > p {
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: 200;
+}
+
+.project-details > button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  width: 106px;
+  height: 48px;
+  background: #9390FF;
+}
+
 
  @media (max-width: 768px){
 } 
