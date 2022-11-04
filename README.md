@@ -3,8 +3,6 @@
 
 # Myporfolio
 
->  Desktop version portfolio website 
-
 ## html and styles css
 
 - english language
