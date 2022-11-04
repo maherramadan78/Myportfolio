@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maher</title>
   <link rel="stylesheet" href="css/style.css">
-  <!-- link swiper css -->
-  <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Poppins:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet"> 
   <!-- BOX ICONS -->
 </head>
 
@@ -99,7 +100,7 @@
             <li><a href=""><img src="./img/Frame.png" alt="Linkedin"></a></li>
             <li><a href=""><img src="./img/Vector5.png" alt="angel"></a></li>
             <li><a href=""><img src="./img/twitter.png" alt="twitter"></a></li>
-            <li><a href=""><img src="./imG/M.png" alt="medium"></a></li>
+            <li><a href=""><img src="./img/M.png" alt="medium"></a></li>
           </ul>
         </div>
         <!-- flesh down -->
@@ -121,7 +122,7 @@
         <div class="work-container">
           <div class="project-img"></div>
           <div class="project-details">
-            <h2>Multi-post stories</h2>
+            <h2 class="TITLE">Multi-post stories</h2>
             <p>A daily selection of privately personalized reads;<br>
               no accounts or sign-ups required. has been the <br>
               industry's standard dummy text ever since the <br>
@@ -196,26 +197,13 @@
           interested in developing, a feature that you <br>
           need built or a project that needs coding.
           I'd love to help with it </p>
-          <ul>
-            <li class="full name">
-              <input type="text" id="jeremy" name="user_name" />
-           <!-- </li>
-            <li> -->
-              <input type="text" id="lastname" name="last_name" />
-            </li>
-
-            <li>
-              <input type="email" id="mail" name="user_email" />
-            </li>
-            <li>
-              <textarea id="msg" name="user_message"></textarea>
-            </li>
-          </ul>
-
-          <li class="button">
-            <button type="button" class="btn" id="1">Send</button>
-          </li>
-        </form>
+          <form>
+            <input type="text" id="fname" class="input1" name="fname" placeholder="Jeremy">
+            <input type="text" id="lname" class="input1" name="lname" placeholder="Last Name"><br>
+            <input type="email" id="mail" class="input2" placeholder="Email Address" /><br>
+            <textarea id="msg" class="input2" name="user_message" placeholder="Write your message here"></textarea>
+            <button type="button" class="btn1" id="1">Send</button>
+          </form> 
       </section>
    
       <footer class="section-footer">
@@ -224,7 +212,7 @@
           <li><a href=""><img src="./img/Frame.png" alt="Linkedin"></a></li>
           <li><a href=""><img src="./img/Vector5.png" alt="angel"></a></li>
           <li><a href=""><img src="./img/twitter.png" alt="twitter"></a></li>
-          <li><a href=""><img src="./imG/M.png" alt="medium"></a></li>
+          <li><a href=""><img src="./img/M.png" alt="medium"></a></li>
         </ul>
 
         <p class="email-text">emailhere@email.com </p>

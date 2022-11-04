@@ -102,10 +102,14 @@ li {
 }
 
 .line1 {
+  height: 0;
   width: 300px;
-  margin: 50px auto;
+  left: 0;
+  margin-top: 9px;
+  margin:  auto;
   overflow: hidden;
   justify-content: center;
+  border: 1px solid #646369;
 }
 
 .third {
@@ -127,7 +131,7 @@ li {
 
 .languages {
   padding: 0 10px 10px 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" , sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 12px;
@@ -193,18 +197,6 @@ li {
   margin: auto 10px;
   justify-self: flex-end;
   padding: 10px;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: left;
-  color: #9490ff;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 12px;
-  line-height: 24px;
-  padding: 10px;
-  margin: auto 0; */
 }
 
 .menu-skills {
@@ -224,14 +216,13 @@ li {
 
 .line2 {
   height: 0;
-  width: 410px;
-  left: opx;
-  top: 9px;
-  border-radius: 10px;
-  padding: 40px;
-  margin: auto;
+  width: 300px;
+  left: 0;
+  margin-top: 9px;
+  margin:  auto;
   overflow: hidden;
   justify-content: center;
+  border: 1px solid #646369;
 }
 
 .socialmedia {
@@ -336,46 +327,21 @@ hr {
   margin-top: -320px;
 }
 
-.title-post-left h2 {
-  font-family: 'Roboto', serif;
-  font-style: normal;
-  font-weight: 350;
-  font-size: 24px;
-  line-height: 44px;
-  display: flex;
-  align-items: left;
-  color: #fff;
-  margin-top: -300px;
-  margin-left: 160px;
-  padding: 10px 0;
-}
+
 
 .paragraph2 {
-  font-weight: 200;
-  font-size: 12px;
+  width: 300px;
+  height: 140px;
+  font-family: 'Roboto' , serif;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 20px;
   line-height: 28px;
-  color: #dcdce8;
-
-  /* padding: 40px;
-padding-left: 29px; */
-  text-align: left;
-  margin: 10px 20px;
-  margin-left: 800px;
-  margin-top: -240px;
+  /* or 140% */
+  /* Neutrals/N40 */
+  color: #DFE1E6;
 }
 
-.paragraph-left {
-  font-family: 'Roboto', serif;
-  font-weight: 200;
-  font-size: 12px;
-  line-height: 28px;
-  color: #dcdce8;
-
-  /* padding: 40px;
-padding-left: 29px; */
-  margin-top: -220px;
-  margin-right: 600px;
-}
 
 .programming-languages {
   display: flex;
@@ -410,32 +376,64 @@ form li + li {
 }
 
 .btn {
-  width: 120px;
-  height: 65px;
-  color: #fff;
-  padding: 25px;
-  border: 1px solid #9390ff;
-  background-color: #9390ff;
-  margin-bottom: 40px;
-  align-self: left;
-  margin-right: 780px;
-  margin-top: 20px;
+  /* See Project */
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: rgba(147, 144, 255, 1);
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 106px;
+height: 48px;
+background: #9390FF;
 }
 
-.btn-segund {
-  width: 120px;
-  height: 65px;
-  color: #fff;
-  padding: 35px 25px;
-  border: 1px solid #9390ff;
-  background-color: #9390ff;
-  align-self: center;
-  align-items: left;
-  justify-content: left;
-  display: flex;
-  margin-right: 950px;
-  margin-left: 160px;
-  margin-top: -30px;
+.btn1 {
+margin-left: 220px;
+margin-top: 60px;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: rgba(147, 144, 255, 1);
+display: flex;
+flex-direction: row;
+padding: 15px;
+gap: 10px;
+width: 160px;
+height: 48px;
+background: #9390FF;
+/* Send */
+width: 136px;
+height: 24px;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+/* Neutrals/N0 */
+color: #FFFFFF;
 }
 
 .thetitle {
@@ -462,7 +460,7 @@ form li + li {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-  margin-left: 100px;
+  margin-left: -30px;
 }
 
 .contact-us {
@@ -491,16 +489,6 @@ form li + li {
   color: #f5f5ff;
 }
 
-/* circle 2 header */
-.ellipse18 {
-  position: absolute;
-  width: 226px;
-  height: 226px;
-  left: 1143px;
-  top: 546px;
-  background: #edecff;
-  filter: blur(25px);
-}
 
 textarea[type="text"]:hover {
   outline: none;
@@ -518,7 +506,7 @@ textarea[type="text"]:hover {
   justify-content: center;
   align-items: center;
   color: #edecff;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
   outline: none;
   cursor: pointer;
@@ -540,11 +528,6 @@ textarea[type="text"]:hover {
   /* Center the form on the page */
   margin: 0 auto;
   width: 400px;
-
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
 }
 
 ul {
@@ -561,10 +544,30 @@ label {
   margin-right: 20px;
 }
 
-input,
+
 textarea {
   font: 1em sans-serif;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-top: 10px;
+}
+
+.input1 {
+  font: 1em sans-serif;
   width: 300px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-top: 10px;
+  
+}
+
+.input2 {
+  font: 1em sans-serif;
+  width: 100%;
+  height: 30px;
   box-sizing: border-box;
   border: 1px solid #999;
   margin-top: 10px;
@@ -596,11 +599,11 @@ textarea:focus {
   color: #f5f5ff;
   column-gap: 0.5rem;
   margin-top: -20px;
-  margin-right: 60px;
+  margin-right: 160px;
 }
 
 .email-text {
-  width: 220px;
+  width: 684px;
   height: 29px;
   font-family: 'Roboto', serif;
   font-style: normal;
@@ -608,12 +611,10 @@ textarea:focus {
   font-size: 20px;
   line-height: 28px;
   padding-right: 500px;
-  margin-left: 850px;
+  margin-left: 740px;
   margin-top: -35px;
-
   /* or 140% */
   text-align: center;
-
   /* Primary/B50 */
   color: #ebebff;
 }
@@ -622,6 +623,9 @@ textarea:focus {
 #lastname {
   width: 148px;
 }
+
+
+
 
 .works {
   width: 100%;
@@ -641,7 +645,6 @@ textarea:focus {
   flex-direction: row-reverse;
 }
 
-.project-img,
 .project-details {
   height: 20rem;
   margin-right: 20px;
@@ -654,8 +657,15 @@ textarea:focus {
 }
 
 .project-details {
-  width: 18rem;
+width: 20rem;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-size: 16px;
+line-height: 28px;
+width: 448px;
+height: 140px;
+margin-top: 77px;
 }
 
-/* @media (min-width: 1440){
-} */
+ @media (max-width: 768px){
+} 
