@@ -13,39 +13,37 @@
 <body>
   <!-- Header -->
   <!-- nav -->
-  <header>
-    <nav class="nav container">
+    <header class="nav container">
       <!-- Logo -->
-      <nav class="navbar">
+      <div class="navbar">
         <a href="#" class="thetitle">Maher</a>
-      </nav>
-      <div class="end">
-        <img class="endnavbar" src="./img/Union.png" alt="Menu">
       </div>
-    </nav>
-  </header>
+      <nav class="end">
+        <img class="endnavbar" src="./img/Union.png" alt="Menu">
+      </nav>
+    </header>
   <!-- Home -->
   <section>
     <img class="ellipse18" src="./img/Ellipse 18.png">
     <div class="home-content">
-      <h1>Maher Ramadan</h1>
+      <h1 class="hero-title">Maher Ramadan</h1>
     </div>
     <div class="home-text">
       <h2>Software Developer</h2>
     </div>
     <div class="paragraph">
-      <p>I can help you build a product,
+      <p class="hero-description">I can help you build a product,
         feature or website Look through
         some of my work and experience! If you like what you see
         and have a project that needs coding,don’t
         hesitate to contact me. </p>
     </div>
   </section>
-  <hr>
+  <hr class="line-01">
   <!-- line1 -->
   <section>
     <div class="list-technologies">
-      <div class="ellipse19"></div>
+      <!-- <div class="ellipse19"></div> -->
       <div class="languages">
         <h4>Languages</h4>
         <ul class="menu-language">
@@ -75,12 +73,17 @@
           <li>Terminal</li>
         </ul>
       </div>
-      <div class="Skills"></div>
+      <div class="Skills Skills-empty"></div>
     </div>
   </section>
   <section>
     <!-- line2 -->
-    <hr>
+    <hr class="line-01">
+    <div class="flesh-down-container">
+    <div class="flesh-down flesh-down-00">
+      <img src="./img/Group 55.png" alt="flesh-down">
+      <img src="./img/Work.png" alt="work">
+    </div>
     <!-- social media -->
     <div class="section-one-column2">
       <ul class="socialmedia">
@@ -88,7 +91,7 @@
         <li><a href=""><img src="./img/Frame.png" alt="Linkedin"></a></li>
         <li><a href=""><img src="./img/Vector5.png" alt="angel"></a></li>
         <li><a href=""><img src="./img/twitter.png" alt="twitter"></a></li>
-        <li><a href=""><img src="./imG/M.png" alt="medium"></a></li>
+        <li><a href=""><img src="./img/M.png" alt="medium"></a></li>
       </ul>
     </div>
     <!-- flesh down -->
@@ -96,6 +99,7 @@
       <img src="./img/Group 55.png" alt="flesh-down">
       <img src="./img/Work.png" alt="work">
     </div>
+  </div>
     <!-- My recent work -->
     <div class="My-Recent-Work">
       <h3>MY RECENT WORK</h3>
@@ -104,39 +108,45 @@
   <hr>
   <section class="card">
     <!--PLACE HOLDER IMAGE-->
-    <div class="place-holder-img">
-      <img src="./img/ImgPlaceholder.png" alt="place holder">
+    <div class="project-card">
+      <div class="place-holder-img">
+        <img src="./img/ImgPlaceholder.png" alt="place holder">
+      </div>
+      <!-- MUTLI POST STORIES -->
+      <div class="desktop-version-card-details">
+      <div class="title-post">
+        <h2>Multi-Post Stories</h2>
+      </div>
+      <div class="paragraph2">
+        <p>A daily selection of privately
+          personalized reads; no accounts
+          or sign-ups required. has been the
+          industry's standard dummy text
+          ever since the 1500s, when an
+          unknown printer took a standard
+          dummy text.</p>
+      </div>
+      <!-- languajes de programacion -->
+      <ul class="programming-languages">
+        <li><a href="">CSS</a></li>
+        <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
+        <li><a href="">html</a></li>
+        <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
+        <li><a href="">bootstrap</a></li>
+        <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
+        <li><a href="">Ruby</a></li>
+      </ul>
+      <!-- SEE PROJECT BUTTON -->
+      <button class="btn">See project</button>
+      </div>
     </div>
-    <!-- MUTLI POST STORIES -->
-    <div class="title-post">
-      <h2>Multi-Post Stories</h2>
-    </div>
-    <div class="paragraph2">
-      <p>A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required. has been the
-        industry's standard dummy text
-        ever since the 1500s, when an
-        unknown printer took a standard
-        dummy text.</p>
-    </div>
-    <!-- languajes de programacion -->
-    <ul class="programming-languages">
-      <li><a href="">CSS</a></li>
-      <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
-      <li><a href="">html</a></li>
-      <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
-      <li><a href="">bootstrap</a></li>
-      <li><a href=""><img src="./img/Rectangle70.png" alt="rectangular"></a></li>
-      <li><a href="">Ruby</a></li>
-    </ul>
-    <!-- SEE PROJECT BUTTON -->
-    <button class="btn">See project</button>
+    <div class="project-card">
     <!--PLACE HOLDER IMAGE2-->
     <div class="place-holder-img">
       <img src="./img/ImgPlaceholder.png" alt="place holder">
     </div>
     <!-- MUTLI POST STORIES -->
+    <div class="desktop-version-card-details-2">
     <div class="title-post">
       <h2>Multi-Post Stories</h2>
     </div>
@@ -161,11 +171,15 @@
     </ul>
     <!-- SEE PROJECT BUTTON -->
     <button class="btn">See project</button>
+  </div>
+  </div>
+  <div class="project-card">
     <!--PLACE HOLDER IMAGE2-->
     <div class="place-holder-img">
       <img src="./img/ImgPlaceholder.png" alt="place holder">
     </div>
     <!-- MUTLI POST STORIES -->
+    <div class="desktop-version-card-details">
     <div class="title-post">
       <h2>Multi-Post Stories</h2>
     </div>
@@ -190,11 +204,15 @@
     </ul>
     <!-- SEE PROJECT BUTTON -->
     <button class="btn">See project</button>
+  </div>
+  </div>
+  <div class="project-card">
     <!--PLACE HOLDER IMAGE2-->
     <div class="place-holder-img">
       <img src="./img/ImgPlaceholder.png" alt="place holder">
     </div>
     <!-- MUTLI POST STORIES -->
+    <div class="desktop-version-card-details-2">
     <div class="title-post">
       <h2>Multi-Post Stories</h2>
     </div>
@@ -220,6 +238,8 @@
     <!-- SEE PROJECT BUTTON -->
     <button class="btn">See project</button>
     </div>
+    </div>
+  </section>
     <section class="contact-form">
       <h2 class="contact-us">Contact Us</h2>
       <p class="paragraph3">If you have an application you are
@@ -241,7 +261,7 @@
         <li><a href=""><img src="./img/Frame.png" alt="Linkedin"></a></li>
         <li><a href=""><img src="./img/Vector5.png" alt="angel"></a></li>
         <li><a href=""><img src="./img/twitter.png" alt="twitter"></a></li>
-        <li><a href=""><img src="./imG/M.png" alt="medium"></a></li>
+        <li><a href=""><img src="./img/M.png" alt="medium"></a></li>
       </ul>
       <p class="email-text">emailhere@email.com </p>
   </footer>

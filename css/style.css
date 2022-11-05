@@ -13,21 +13,11 @@ a {
 li {
   list-style: none;
 }
-.endnavbar {
-  padding: 20px;
-  justify-content: end;
-  color: #F9F9F9;
-}
-.container {
-  max-width: 900px;
-  margin: auto;
-  width: 100%;
-}
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px;
 }
 .logo {
   font-size: 1.2rem;
@@ -47,17 +37,18 @@ li {
   align-items: center;
   padding: 20px;
 }
-.paragraph {
-  text-align: center;
-  align-items: center;
+.hero-description {
+  width: 300px;
+  margin: auto;
   color: #C8C8D4;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   line-height: 28px;
-  padding: 5px 25px 0 25px;
-  flex: none;
+  text-align: center;
+}
+.line-01 {
+  width: 300px;
+  margin: 30px auto;
 }
 .home-text h2 {
   font-size: 1.5rem;
@@ -173,17 +164,6 @@ li {
   justify-self: flex-start;
   padding: 10px;
   min-width: 30%;
-  /* display: flex;
-  flex-direction: column;
-  align-items: left;
-  color: #9490FF;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 12px;
-  line-height: 24px;
-  padding: 10px;
-  margin: auto 0; */
 }
 .menu-skills {
   font-family: "Roboto", sans-serif;
@@ -316,16 +296,7 @@ padding-left: 29px; */
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  overflow: hidden;
 }
 .contact-form {
   display: flex;
@@ -419,4 +390,33 @@ textarea[type="text"]:hover {
   margin-bottom: 30px;
   font-size: 20px;
 }
-
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 50px;
+  }
+  .list-technologies {
+    justify-content: center;
+  }
+  .languages, .Frameworks, .Skills {
+    min-width: 0;
+  }
+  .Skills-empty {
+    display: none;
+  }
+  .flesh-down-container {
+    display: flex;
+    justify-content: space-around;
+    aling-items: center;
+    margin: 100px 0;
+  }
+  .project-card {
+    display: flex;
+  }
+  .place-holder-img {
+    width: 80%;
+    height: 400px;
+  }
+  .desktop-version-card-details-2 {
+    order: -1;
+  }
+}
