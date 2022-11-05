@@ -20,11 +20,15 @@
       </div>
       <nav class="end">
         <img class="endnavbar" src="./img/Union.png" alt="Menu">
+        <ul class="nav-links">
+          <li class="navlink"><a href="#" class="navlink">Portfolio</a></li>
+          <li class="navlink"><a href="#" class="navlink">About</a></li>
+          <li class="navlink"><a href="#" class="navlink">Contact</a></li>
+        </ul>
       </nav>
     </header>
   <!-- Home -->
-  <section>
-    <img class="ellipse18" src="./img/Ellipse 18.png">
+  <section class="hero-container">
     <div class="home-content">
       <h1 class="hero-title">Maher Ramadan</h1>
     </div>
@@ -38,47 +42,47 @@
         and have a project that needs coding,don’t
         hesitate to contact me. </p>
     </div>
+    <hr class="line-01">
+    <!-- line1 -->
+    <section>
+      <div class="list-technologies">
+        <!-- <div class="ellipse19"></div> -->
+        <div class="languages">
+          <h4>Languages</h4>
+          <ul class="menu-language">
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="Frameworks">
+          <h4>Frameworks</h4>
+          <ul class="menu-frameworks">
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="Skills">
+          <h4>Skills</h4>
+          <ul class="menu-skills">
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+        <div class="Skills Skills-empty"></div>
+      </div>
+    </section>
   </section>
   <hr class="line-01">
-  <!-- line1 -->
-  <section>
-    <div class="list-technologies">
-      <!-- <div class="ellipse19"></div> -->
-      <div class="languages">
-        <h4>Languages</h4>
-        <ul class="menu-language">
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Html</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class="Frameworks">
-        <h4>Frameworks</h4>
-        <ul class="menu-frameworks">
-          <li>Bootstrap</li>
-          <li>Ruby on Rails</li>
-          <li>RSPec</li>
-          <li>CapyBara</li>
-          <li>Selenium</li>
-        </ul>
-      </div>
-      <div class="Skills">
-        <h4>Skills</h4>
-        <ul class="menu-skills">
-          <li>Codekit</li>
-          <li>Github</li>
-          <li>Codepen</li>
-          <li>Gitlab</li>
-          <li>Terminal</li>
-        </ul>
-      </div>
-      <div class="Skills Skills-empty"></div>
-    </div>
-  </section>
   <section>
     <!-- line2 -->
-    <hr class="line-01">
     <div class="flesh-down-container">
     <div class="flesh-down flesh-down-00">
       <img src="./img/Group 55.png" alt="flesh-down">
@@ -241,16 +245,20 @@
     </div>
   </section>
     <section class="contact-form">
-      <h2 class="contact-us">Contact Us</h2>
+      <h2 class="contact-us">Let's chat!</h2>
       <p class="paragraph3">If you have an application you are
         interested in developing, a feature that you
         need built or a project that needs coding.
         I'd love to help with it </p>
       <form action="https://formspree.io/forms/meqdknwb/integration" method="post" class="form">
-      <input type="text" id="name" name="name" placeholder="First name" maxlength="30" required>
+      <input type="text" id="full-name" name="full-name" placeholder="Full name" maxlength="30" required>
+      <div class="desktop-contact-input-fields">
+      <input type="text" id="first-name" name="first-name" placeholder="First name" maxlength="30" required>
+      <input type="text" id="last-name" name="last-name" placeholder="Last name" maxlength="30" required>
+      </div>
       <input type="email" id="email" name="email" placeholder="Example@email.com" required>
       <textarea type="text" id="Message" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
-      <button class="btn2">See project</button>
+      <button type="submit" class="btn2">Send</button>
     </form>
   </section>
   <!-- line4 -->

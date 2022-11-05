@@ -13,12 +13,18 @@ a {
 li {
   list-style: none;
 }
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
+
+.nav-links {
+  display: none;
+}
+
 .logo {
   font-size: 1.2rem;
   font-weight: 600;
@@ -279,11 +285,20 @@ padding-left: 29px; */
   border: 1px solid #9390FF;
   background-color: #9390FF;
   margin-left: 25px;
-  width: 40%;
+  width: 140px;
   margin-top: 40px;
   margin-bottom: 60px;
-  align-self: left;
+  /* align-self: left; */
 }
+
+.btn:hover, .btn2:hover {
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.btn:focus, .btn2:focus {
+  background: #5E42D7;
+}
+
 .ellipse18 {
   position: absolute;
   width: 120px;
@@ -353,8 +368,11 @@ textarea[type="text"] {
 textarea[type="text"]:hover {
   outline: none;
 }
+#first-name, #last-name {
+  display: none;
+}
 .btn2 {
-  padding: 12px;
+  padding: 12px 50px;
   background-color: #7D73FC;
   border: 1px solid #7D73FC;
   font-weight: 500;
@@ -369,10 +387,7 @@ textarea[type="text"]:hover {
   outline: none;
   cursor: pointer;
 }
-.btn2:hover {
-  background-color: #fff;
-  color: #191765;
-}
+
 .section-footer {
   display: flex;
   flex-direction: column;
@@ -391,11 +406,46 @@ textarea[type="text"]:hover {
   font-size: 20px;
 }
 @media screen and (min-width: 768px) {
+  .nav {
+    justify-content: space-around;
+  }
+
+  .endnavbar {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+  }
+
+  .navlink {
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+
+  .hero-container {
+    background: url(../img/twocirclesheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+
   .hero-title {
     font-size: 50px;
   }
   .list-technologies {
     justify-content: center;
+  }
+
+  .languages {
+    margin-top: 5px;
+  }
+
+  .Skills {
+    margin-top: 14px;
   }
   .languages, .Frameworks, .Skills {
     min-width: 0;
@@ -406,11 +456,12 @@ textarea[type="text"]:hover {
   .flesh-down-container {
     display: flex;
     justify-content: space-around;
-    aling-items: center;
+    align-items: center;
     margin: 100px 0;
   }
   .project-card {
     display: flex;
+    padding: 50px;
   }
   .place-holder-img {
     width: 80%;
@@ -418,5 +469,29 @@ textarea[type="text"]:hover {
   }
   .desktop-version-card-details-2 {
     order: -1;
+  }
+
+  .paragraph2 {
+    width: 500px;
+  }
+
+  .paragraph3 {
+    width: 40%;
+  }
+  #full-name {
+    display: none;
+  }
+  .desktop-contact-input-fields {
+    display: flex;
+  }
+  #first-name, #last-name {
+    display: inherit;
+  }
+  #email, #Message {
+    width: 95.5%;
+  }
+
+  .section-footer {
+    flex-direction: row;
   }
 }
