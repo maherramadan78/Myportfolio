@@ -250,6 +250,10 @@ li {
   padding: 20px;
 }
 
+.flesh-down-00 {
+  display: none;
+}
+
 .flesh-down img {
   margin-right: 10px;
 }
@@ -536,6 +540,10 @@ textarea[type="text"]:hover {
     justify-content: space-around;
     align-items: center;
     margin: 100px 0;
+  }
+
+  .flesh-down-00 {
+    display: inherit;
   }
 
   .project-card {
