@@ -286,6 +286,11 @@ hr {
   padding-left: 10px;
 }
 
+.place-holder-img:hover {
+  width: 427px;
+  height: 336px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
