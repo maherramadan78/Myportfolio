@@ -283,8 +283,6 @@ hr {
   padding-left: 10px;
 }
 
-
-
 .card {
   display: flex;
   flex-direction: column;
@@ -558,7 +556,7 @@ textarea[type="text"]:hover {
     height: 400px;
   }
 
-  
+
 
   .desktop-version-card-details-2 {
     order: -1;
