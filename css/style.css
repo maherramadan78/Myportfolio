@@ -345,13 +345,13 @@ padding-left: 29px; */
   /* align-self: left; */
 }
 
-text-align: center;
+/*text-align: center;
 letter-spacing: 0.03em;
 color: #fff;
 flex: none;
 order: 0;
 flex-grow: 0;
-overflow: hidden;
+overflow: hidden;*/
 
 .contact-form {
   display: flex;
@@ -365,6 +365,7 @@ overflow: hidden;
   background-color: #7d73fc;
   border: 1px solid #7d73fc;
   font-weight: 500;
+}
 
   .social-icons li {
     margin-right: 10px;
@@ -373,7 +374,7 @@ overflow: hidden;
   .email-text {
     margin-bottom: 30px;
     font-size: 20px;
-  <<<<<<< HEAD
+  
   }
 
   @media screen and (min-width: 768px) {
@@ -488,7 +489,4 @@ overflow: hidden;
       flex-direction: row;
     }
   }
-=======
-}
-}
->>>>>>> 19778397608bb0f76994e57168065b14945fbfc4
+
