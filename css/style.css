@@ -37,11 +37,24 @@ li {
   padding: 50px 0;
 }
 
-.logo {
+.navbar {
   font-size: 1.2rem;
   font-weight: 600;
   color: #f5f5ff;
+  animation: rotatelogo 3s alternate 2s 5;
 }
+
+@keyframes rotatelogo {
+  from {
+    transform: rotate(0deg);
+
+  }
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+
 
 .home-content {
   display: flex;
