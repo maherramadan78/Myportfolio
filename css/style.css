@@ -536,9 +536,8 @@ textarea[type="text"]:hover {
     justify-content: space-around;
   }
 
-  .mobile-menu-container {
-    display: none;
-  }
+
+
 
   .endnavbar {
     display: none;
@@ -558,6 +557,7 @@ textarea[type="text"]:hover {
 
   .mobile-menu-container {
     visibility: hidden;
+    display: none;
   }
 
   .hero-container {
