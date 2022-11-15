@@ -8,11 +8,11 @@
 
 .mobile-menu-container {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   left: 0;
   background-color: rgba(25, 23, 101, 1);
-  background-image: url("../img/shapes\ mobile\ menu.png"); 
+  background-image: url("../img/shapes\ mobile\ menu.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +25,7 @@
 .mobile-menu-ul {
   margin-top: 80px;
 }
+
 .mobile-menu-ul a {
   color: #fff;
   margin: 15px 0;
@@ -34,24 +35,19 @@
 
 .mobile-menu-close {
   display: block;
- text-align: right;
- margin-right: 10%;
- margin-top: 10%;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 10%;
 }
 
 .mobile-menu-li {
   margin-bottom: 20px;
- 
-
 }
 
 .mobile-menu-a {
   position: absolute;
-  top:40px;
+  top: 40px;
   right: 40px;
-}
-
-.mobile-menu-a {
   width: 30px;
   height: 30px;
 }
@@ -59,10 +55,6 @@
 body {
   color: #f5f5ff;
   background: #191765;
-}
-
-a {
-  text-decoration: none;
 }
 
 li {
@@ -97,14 +89,12 @@ li {
 @keyframes rotatelogo {
   from {
     transform: rotate(0deg);
-
   }
+
   to {
     transform: rotate(360deg);
-
   }
 }
-
 
 .home-content {
   display: flex;
