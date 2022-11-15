@@ -18,7 +18,7 @@
   background-position: center;
   height: 100vh;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   visibility: hidden;
 }
 
@@ -534,6 +534,10 @@ textarea[type="text"]:hover {
 @media screen and (min-width: 768px) {
   .nav {
     justify-content: space-around;
+  }
+
+  .mobile-menu-container {
+    display: none;
   }
 
   .endnavbar {
