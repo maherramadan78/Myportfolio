@@ -19,33 +19,33 @@
         <a href="#" class="thetitle">Maher</a>
       </div>
       <nav class="end">
-        <img class="endnavbar" src="./img/Union.png" alt="Menu">
+        <a class="menu-link" href="#"><img class="endnavbar" src="./img/Union.png" alt="Menu"></a>
+       
         <ul class="nav-links">
-          <li class="navlink"><a href="#" class="navlink">Portfolio</a></li>
-          <li class="navlink"><a href="#" class="navlink">About</a></li>
-          <li class="navlink"><a href="#" class="navlink">Contact</a></li>
+          <li class="navlink"><a href="#portfolio-section" class="navlink">Portfolio</a></li>
+          <li class="navlink"><a href="#about-section" class="navlink">About</a></li>
+          <li class="navlink"><a href="#contact-section" class="navlink">Contact</a></li>
           <li class="navlink"><a href="#" class="navlink"><img src="./img/Icon - Mail.png" alt="email"></a></li>
         </ul>
       </nav>
 
-
       <!-- mobile menu drawer -->
       <div class="mobile-menu-container">
-        <a href="#" class="mobile-menu-a">
+        <a href="#" class="mobile-menu-close">
           <img src="img/Icon - Cancel.png" alt="" class="mobile-menu-img">
         </a>
         <!-- for better semantic use, we use Ul -->
         <ul class="mobile-menu-ul">
-          <li class="mobile-menu-li">Portfolio</li>
-          <li class="mobile-menu-li">About</li>
-          <li class="mobile-menu-li">Contact</li>
+          <li class="mobile-menu-1"><a href="#portfolio-section">Portfolio</a></li>
+          <li class="mobile-menu-2"><a href="#about-section">About</a></li>
+          <li class="mobile-menu-3"><a href="#contact-section">Contact</a></li>
         </ul>
 
       </div>
 
     </header>
   <!-- Home -->
-  <section class="hero-container">
+  <section id="about-section" class="hero-container">
     <div class="home-content">
       <h1 class="hero-title">Maher Ramadan</h1>
     </div>
@@ -122,7 +122,7 @@
     </div>
   </div>
     <!-- My recent work -->
-    <div class="My-Recent-Work">
+    <div id="portfolio-section" class="My-Recent-Work">
       <h3>MY RECENT WORK</h3>
     </div>
   </section>
@@ -261,7 +261,7 @@
     </div>
     </div>
   </section>
-    <section class="contact-form">
+    <section id="contact-section" class="contact-form">
       <h2 class="contact-us">Let's chat!</h2>
       <p class="paragraph3">If you have an application you are
         interested in developing, a feature that you
@@ -288,5 +288,8 @@
       </ul>
       <p class="email-text">emailhere@email.com </p>
   </footer>
+
+  <script src="./js/main.js"></script>
+
 </body>
 </html>
