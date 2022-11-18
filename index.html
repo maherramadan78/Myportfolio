@@ -42,18 +42,11 @@
         </ul>
       </div>
       <!--pop up window container-->
-      <div class="popup-window-container">
-        <div class="model-title">
-          <h2 class="model-title">Multi - Post stories</h2>
-        <a href="#" class="popup window-close">
-          <img src="img/Icon - Cancel.png" alt="" class="mobile-menu-img">
-        </a>
-        <div class="model-img">
-          <img class="model-img-1" src="./img/Snapshoot Portfolio(1).png" alt="card-img-1">
+        <div class="popup-window-container">
+          <div class="model-title">
+        </div>
         </div>
       </div>
-   
-    </div>
     </header>
   <!-- Home -->
   <section id="about-section" class="hero-container">
@@ -284,7 +277,8 @@
       <input type="text" id="first-name" name="first-name" placeholder="First name" maxlength="30" required>
       <input type="text" id="last-name" name="last-name" placeholder="Last name" maxlength="30" required>
       </div>
-      <input type="email" id="email" name="email" placeholder="Example@email.com" required>
+      <input class="invalid" type="email" id="email" name="email" placeholder="Example@email.com" required>
+      <h3 class="error-hint"></h3>
       <textarea type="text" id="Message" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
       <button type="submit" class="btn2">Send</button>
     </form>
@@ -301,6 +295,7 @@
   </footer>
 
   <script src="./js/main.js"></script>
+  <!-- <script src="./js/app.js"></script> -->
 
 </body>
 </html>
