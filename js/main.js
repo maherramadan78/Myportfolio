@@ -21,17 +21,19 @@ document.querySelector('.mobile-menu-3').addEventListener('click', () => {
   document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
 });
 
-
-const form = document.querySelector('.form');
+// Contact validation form
 const email = document.querySelector('#email');
-const error = document.querySelector('.error-hint');
-// form.addEventListener('submit', (e) => {
-//   console.log(e.target)
-//   if(email.value === email.value.toLowerCase()) {
-// form.submit()
-// } else { form
-//     e.preventDefault();
-//     console.log('invalid submission')
-// error.innerHTML = 'Email should be in lower case'
-// }
-// }) 
+const form = document.querySelector('.contact-form');
+const error = email.nextElementSibling;
+
+const pattern = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+
+form.addEventListener('submit', (event) => {
+  const isValid = pattern.test(email.value);
+  if (!isValid) {
+    error.textContent = 'Please enter the email in lowercase.';
+    event.preventDefault();
+  } else {
+    error.textContent = '';
+  }
+});
