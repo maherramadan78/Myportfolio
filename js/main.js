@@ -20,3 +20,18 @@ document.querySelector('.mobile-menu-2').addEventListener('click', () => {
 document.querySelector('.mobile-menu-3').addEventListener('click', () => {
   document.querySelector('.mobile-menu-container').setAttribute('style', 'visibility:hidden');
 });
+
+
+const form = document.querySelector('.form');
+const email = document.querySelector('#email');
+const error = document.querySelector('.error-hint');
+// form.addEventListener('submit', (e) => {
+//   console.log(e.target)
+//   if(email.value === email.value.toLowerCase()) {
+// form.submit()
+// } else { 
+//     e.preventDefault();
+//     console.log('invalid submission')
+// error.innerHTML = 'Email should be in lower case'
+// }
+// }) 
