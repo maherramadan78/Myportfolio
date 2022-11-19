@@ -22,18 +22,18 @@ document.querySelector('.mobile-menu-3').addEventListener('click', () => {
 });
 
 // Contact validation form
-const email = document.querySelector('#email');
-const form = document.querySelector('.contact-form');
-const error = email.nextElementSibling;
-
-const pattern = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
-
-form.addEventListener('submit', (event) => {
-  const isValid = pattern.test(email.value);
-  if (!isValid) {
-    error.textContent = 'Please enter the email in lowercase.';
-    event.preventDefault();
-  } else {
-    error.textContent = '';
-  }
+const form = document.getElementById('form');
+const mailValue = document.getElementById('email').value;
+const errorMessage = document.getElementById('error');
+form.addEventListener('submit', (e) => {
+  console.log(mailValue);
+e.preventDefault();
+const showMessage = [];
+if (mailValue.value.toLowerCase() !== mailValue.value) {
+errorMessage.style.display = 'inline-block';
+showMessage.push(`Error: Email should be in lowercase,  you entered ${mailValue.value}`);
+} else {
+  form.submit();
+}
+errorMessage.innerText = showMessage;
 });
