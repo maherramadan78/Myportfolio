@@ -1,19 +1,17 @@
-# portfolio-project
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# portfolio-validate-contact-form
+![](https://github.com/maherramadan78/Myportfolio/tree/validate-contact-form)
 
 # Myporfolio
-
-> first mobile portfolio contact form
-
-## html and styles css
+# validate contact form 
+## html and styles css & javascript
 
 - english language
 - visual code editor
-- html , css.
+- html , css, javascript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://www.loom.com/share/62041ade22fb41d29dfd46984d370bbc)
 
 
 ## Getting Started
@@ -25,20 +23,26 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-creat a repositori in git hub , clone it on the v code and create branche and switch from the master to the new feature branch.
+creat a repositori in git hub , clone it on the v code and create branche and switch from the master to the validate contact form branch
 add index.html.
 add styles.css.
+add javascript file main.js
 add  files readme , linters file , stylelintrc.json, package.json.
-coding the html code and css style to make the first mobile portfolio project.
+coding the html code and css style to make the desktop version portfolio
 
 
 ### Setup
-after that i created a branch a new feature branch and i switched it from master to new feature branch .
+after that i created a branch a validate contact form branch  and i switched it from master .
 
 ### Install
-I clone it by using the git bash inside the folder of hello microverse project.
+I clone it by using the git bash inside the folder of my portfolio.
 ### Usage
-i have made my portfolio finish mobile project by html and styles css  creating the index.html and styles.css files.
+i have made my mobile menu project by html and styles css and javascript files  creating the index.html and styles.css files.
+in the main.js and main.js I added the code of java script to make the validate contact form working normaly.
+so When the user submits the form, you check if the email is in lower case.
+If the validation is OK, the form is sent.
+If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
+
 i added all the files readme , linters file , stylelintrc.json, package.json.
 ### Run tests
 i used the command git add .
@@ -49,7 +53,7 @@ git push
 
 Maher Ramadan
 
-- GitHub: [@githubhandle](https://github.com/maherramadan78/Myportfolio.git)
+- GitHub: [@githubhandle](https://github.com/maherramadan78/Myportfolio/tree/desktop-version)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maher-ramadan-655623a4/)
 
 
